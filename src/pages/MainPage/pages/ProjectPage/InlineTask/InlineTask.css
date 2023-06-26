@@ -1,0 +1,15 @@
+.inline-task {
+    width: 100%;
+    background-color: #6fb7c4;
+    height: 2.25rem;
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    align-items: center;
+    transition: all ease 300ms;
+    margin-bottom: 0.5rem;
+}
+
+.inline-task:hover {
+    cursor: pointer;
+    background-color: #508fac;
+}

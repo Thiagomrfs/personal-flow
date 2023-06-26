@@ -1,0 +1,83 @@
+#lg-pg {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: var(--acc-gray);
+}
+
+#lg-pg .top {
+    height: 85vh;
+    overflow-y: hidden;
+}
+
+#lg-pg .top .card {
+    position: absolute;
+    width: 35vw;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--black);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.5rem;
+}
+
+#lg-pg .top .card button {
+    background-color: var(--main);
+    border-color: var(--main);
+    transition: all ease 300ms;
+}
+
+#lg-pg .top .card button:hover {
+    cursor: pointer;
+    background-color: var(--main-dark);
+    border-color: var(--main-dark);
+}
+
+.p-inputgroup-addon {
+    background-color: var(--main);
+    color: var(--white);
+    border-color: var(--main);
+}
+
+#lg-pg .bottom {
+    width: 100%;
+    height: 15vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black);
+}
+
+#lg-pg .bottom h3 b {
+    color: var(--main);
+}
+
+#lg-pg .bottom img {
+    filter: grayscale(100%) invert(100%);
+}
+
+#lg-pg .icons {
+    display: flex;
+    gap: 1rem;
+}
+
+#lg-pg .icons a {
+    font-size: 1.5rem;
+    color: var(--white);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all ease 300ms;
+}
+
+#lg-pg .icons a:hover {
+    cursor: pointer;
+    background-color: rgba(146, 143, 143, 0.192);
+}

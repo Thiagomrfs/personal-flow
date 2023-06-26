@@ -1,0 +1,38 @@
+#proj-pg {
+    width: 100%;
+    height: 100%;
+    color: var(--black);
+    padding: 0.25rem 1rem;
+}
+
+#proj-pg i {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 300ms;
+}
+
+#proj-pg i:hover {
+    cursor: pointer;
+    background-color: rgba(29, 18, 4, 0.281);
+}
+
+#proj-pg button.sv {
+    background-color: var(--main);
+    color: var(--white);
+    margin-top: 2rem;
+    transition: all ease 300ms;
+    height: 3rem;
+}
+
+#proj-pg button.sv:hover {
+    cursor: pointer;
+    background-color: var(--main-dark);
+}
+
+.p-divider .p-divider-content {
+    background-color: transparent;
+}

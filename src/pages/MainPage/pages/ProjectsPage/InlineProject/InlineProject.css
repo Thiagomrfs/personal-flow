@@ -1,0 +1,15 @@
+.inline-proj {
+    width: 100%;
+    background-color: #7c975c;
+    height: 2.25rem;
+    display: flex;
+    padding: 0.25rem 0.5rem;
+    align-items: center;
+    transition: all ease 300ms;
+    margin-bottom: 0.5rem;
+}
+
+.inline-proj:hover {
+    cursor: pointer;
+    background-color: #5b804a;
+}
