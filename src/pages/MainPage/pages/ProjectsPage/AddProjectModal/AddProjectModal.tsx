@@ -46,7 +46,7 @@ export const AddProjectModal = () => {
             <i className="pi pi-plus add-proj-cta" onClick={() => setVisible(true)} />
             {visible &&
                 <Dialog
-                    header="Adicionar tarefa" visible={visible}
+                    header="Adicionar projeto" visible={visible}
                     className="add-proj-md" onHide={() => setVisible(false)}
                     maximizable blockScroll draggable={false}
                 >
